@@ -102,14 +102,10 @@ img { max-width: 100%; display: block; }
 }
 
 .logo {
-  font-family: var(--font-heading);
-  font-weight: 700;
-  font-size: 1.15rem;
-  color: var(--color-primary-dark);
-  white-space: nowrap;
+  display: flex;
+  align-items: center;
 }
-.logo span { color: var(--color-accent); }
-.logo__img { height: 40px; }
+.logo__img { height: 52px; width: auto; }
 
 .nav {
   display: flex;
