@@ -59,12 +59,27 @@ Qualquer uma dessas opções funciona bem para este site estático:
 2. Source: branch `main`, pasta `/ (root)`
 3. Em "Custom domain", informe seu domínio e configure o DNS conforme a documentação do GitHub Pages
 
-## Conectando o domínio que vocês já têm
+## Conectando o domínio zoldancontabilidade.cnt.br (Vercel)
 
-No painel do registrador do domínio (Registro.br, HostGator, etc.), você vai
-criar registros DNS apontando para o serviço escolhido acima. Cada serviço
-(Vercel/Netlify/GitHub Pages) mostra exatamente quais registros CNAME/A criar
-assim que você adiciona o domínio nas configurações dele.
+Domínio `.cnt.br` é registrado pelo Registro.br (categoria profissional de
+contabilistas). O DNS dele se gerencia no mesmo painel de qualquer domínio
+`.br`: registro.br → login → "Meus domínios" → `zoldancontabilidade.cnt.br`
+→ "Editar Zona DNS" (ou "DNS").
+
+Passo a passo:
+
+1. Na Vercel, dentro do projeto → **Settings → Domains**, digite
+   `zoldancontabilidade.cnt.br` e clique em "Add"
+2. Repita para `www.zoldancontabilidade.cnt.br` (a Vercel geralmente já
+   sugere isso automaticamente e faz o redirecionamento entre as duas versões)
+3. A Vercel vai mostrar os registros exatos a criar — normalmente:
+   - Domínio raiz (`zoldancontabilidade.cnt.br`): registro **A** apontando
+     para `76.76.21.21`
+   - Subdomínio `www`: registro **CNAME** apontando para `cname.vercel-dns.com`
+4. No Registro.br, na Zona DNS do domínio, crie exatamente esses registros
+   (copie os valores que a Vercel mostrar na hora, eles podem mudar)
+5. Aguarde a propagação (minutos a poucas horas) — a Vercel marca o domínio
+   como "Valid Configuration" quando terminar
 
 ## WhatsApp Business
 
