@@ -23,9 +23,8 @@ assets/      -> coloque aqui logo, favicon e fotos
 - [x] Cores da marca (azul da logo) em `styles.css`, bloco `:root`
 - [x] Textos de Serviços (11 serviços) e Sobre com conteúdo real
 - [x] Seção de depoimentos removida a pedido do cliente
-- [ ] Logo: enviar o **arquivo de imagem** da logo (PNG/SVG) para colocar em `assets/logo.png`
-      e descomentar a tag `<img class="logo__img">` no `index.html` — por enquanto o
-      cabeçalho usa texto estilizado com as cores da marca
+- [x] Logo: `assets/logo.png` (fundo removido) no cabeçalho, `assets/favicon.png`
+      e `assets/apple-touch-icon.png` gerados a partir do símbolo
 - [ ] Fotos reais da equipe/escritório (seção Sobre)
 
 ## Como ver localmente
