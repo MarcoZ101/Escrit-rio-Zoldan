@@ -14,14 +14,19 @@ assets/      -> coloque aqui logo, favicon e fotos
 
 ## Checklist de personalização
 
-- [x] Nome do escritório: já ajustado para "Escritório Contábil Zoldan"
-- [ ] WhatsApp: buscar e substituir `5511999999999` (formato: DDI+DDD+número, só números)
-- [ ] Instagram: buscar e substituir `seuescritorio`
-- [ ] E-mail: buscar e substituir `contato@seuescritorio.com.br`
-- [ ] Endereço e horário de atendimento (seção `#contato` no `index.html`)
-- [ ] Textos de Serviços, Sobre e Depoimentos com conteúdo real
-- [ ] Logo: colocar arquivo em `assets/logo.png` e descomentar a tag `<img class="logo__img">` no `index.html`
-- [ ] Cores da marca em `styles.css`, dentro do bloco `:root` (linhas com `--color-primary`, `--color-accent`, etc.)
+- [x] Nome do escritório: "Escritório Contábil Zoldan"
+- [x] WhatsApp/telefone: (49) 3353-4780
+- [x] Instagram: @escritoriocontabilzoldan
+- [x] E-mail: azcontabeis@azcontabeis.com.br
+- [x] Endereço: Trav. Independência, 41, 1º andar sala 01, Centro, Xaxim/SC, CEP 89.825-000
+- [x] Cores da marca (azul da logo) em `styles.css`, bloco `:root`
+- [x] Textos de Serviços (11 serviços) e Sobre com conteúdo real
+- [ ] Logo: enviar o **arquivo de imagem** da logo (PNG/SVG) para colocar em `assets/logo.png`
+      e descomentar a tag `<img class="logo__img">` no `index.html` — por enquanto o
+      cabeçalho usa texto estilizado com as cores da marca
+- [ ] Confirmar horário de atendimento (está marcado como "a confirmar" no site)
+- [ ] Depoimentos: ainda são exemplos — trocar por relatos reais de clientes quando tiver
+- [ ] Fotos reais da equipe/escritório (seção Sobre)
 
 ## Como ver localmente
 
