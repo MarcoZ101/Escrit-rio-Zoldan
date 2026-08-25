@@ -17,15 +17,15 @@ assets/      -> coloque aqui logo, favicon e fotos
 - [x] Nome do escritório: "Escritório Contábil Zoldan"
 - [x] WhatsApp/telefone: (49) 3353-4780
 - [x] Instagram: @escritoriocontabilzoldan
-- [x] E-mail: azcontabeis@azcontabeis.com.br
+- [x] E-mail: azcontabeis@azcontabeis.com.br (temporário — avisar quando tiver o novo)
 - [x] Endereço: Trav. Independência, 41, 1º andar sala 01, Centro, Xaxim/SC, CEP 89.825-000
+- [x] Horário de atendimento: Segunda a sexta, 7h45 às 18h
 - [x] Cores da marca (azul da logo) em `styles.css`, bloco `:root`
 - [x] Textos de Serviços (11 serviços) e Sobre com conteúdo real
+- [x] Seção de depoimentos removida a pedido do cliente
 - [ ] Logo: enviar o **arquivo de imagem** da logo (PNG/SVG) para colocar em `assets/logo.png`
       e descomentar a tag `<img class="logo__img">` no `index.html` — por enquanto o
       cabeçalho usa texto estilizado com as cores da marca
-- [ ] Confirmar horário de atendimento (está marcado como "a confirmar" no site)
-- [ ] Depoimentos: ainda são exemplos — trocar por relatos reais de clientes quando tiver
 - [ ] Fotos reais da equipe/escritório (seção Sobre)
 
 ## Como ver localmente
