@@ -20,12 +20,22 @@ assets/      -> coloque aqui logo, favicon e fotos
 - [x] E-mail: azcontabeis@azcontabeis.com.br (temporário — avisar quando tiver o novo)
 - [x] Endereço: Trav. Independência, 41, 1º andar sala 01, Centro, Xaxim/SC, CEP 89.825-000
 - [x] Horário de atendimento: Segunda a sexta, 7h45 às 18h
-- [x] Cores da marca (azul da logo) em `styles.css`, bloco `:root`
 - [x] Textos de Serviços (11 serviços) e Sobre com conteúdo real
 - [x] Seção de depoimentos removida a pedido do cliente
-- [x] Logo: `assets/logo.png` (fundo removido) no cabeçalho, `assets/favicon.png`
-      e `assets/apple-touch-icon.png` gerados a partir do símbolo
-- [ ] Fotos reais da equipe/escritório (seção Sobre)
+- [x] **Rebrand 2026 aplicado** (extraído do pacote do Claude Design): nova logo
+      (símbolo de águia), paleta azul-marinho/azul, tipografia Roboto + Montserrat,
+      novo layout de seções (hero escuro, faixa de estatísticas, pilares, split
+      feature, banner de CTA) — ver `assets/logo-white.png`, `assets/eagle-mark.png`
+- [ ] Fotos reais da equipe/escritório (seção Sobre e Hero — hoje usa imagens
+      ilustrativas geradas no Claude Design)
+- [ ] Estatísticas de prova social do rascunho original (anos de atuação, nº de
+      clientes, tempo médio de resposta) foram **removidas** por não serem
+      confirmadas — usamos só o que já sabíamos (16 anos desde 2010, CRC ativo)
+- [ ] Tabela de preços e formulário de contato do rascunho **não foram incluídos**
+      a pedido do cliente — contato continua só por WhatsApp
+- [ ] "Área do cliente" (portal com login) é uma ideia do design para o futuro —
+      não foi construída, pois depende de um sistema por trás (autenticação,
+      armazenamento de documentos) que ainda não existe
 
 ## Como ver localmente
 
