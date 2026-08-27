@@ -406,17 +406,64 @@ section.sec { padding: clamp(64px, 8vw, 112px) 0; }
   gap: var(--space-11);
   align-items: center;
 }
-.sobre__placeholder {
-  background: var(--surface-subtle);
-  border: 1px dashed var(--border-subtle);
+.credential-card {
+  position: relative;
+  overflow: hidden;
+  background: var(--ink-950);
   border-radius: var(--radius-lg);
-  aspect-ratio: 4/3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-muted);
-  text-align: center;
-  padding: 24px;
+  padding: var(--space-9);
+  box-shadow: var(--shadow-lg);
+}
+.credential-card__watermark {
+  position: absolute;
+  right: -40px;
+  bottom: -30px;
+  width: 260px;
+  opacity: .28;
+  pointer-events: none;
+}
+.credential-card h3 {
+  position: relative;
+  color: #fff;
+  font-weight: var(--weight-regular);
+  font-size: var(--text-h1);
+  margin: 0 0 var(--space-7);
+}
+.credential-card__list {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--space-9);
+  display: grid;
+  gap: var(--space-4);
+}
+.credential-card__list li {
+  padding-left: 24px;
+  position: relative;
+  color: var(--text-inverse-secondary);
+  font-size: var(--text-base);
+}
+.credential-card__list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--blue-300);
+}
+.credential-card__badge {
+  position: relative;
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border-inverse);
+  font-family: var(--font-accent);
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--blue-300);
 }
 
 /* ---------- Contato ---------- */
